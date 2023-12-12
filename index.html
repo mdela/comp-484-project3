@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSUN Map Quiz</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+
+
+  <body>
+    <div id="container">
+      <div class="results">
+        <h2 align="middle">Map Quiz</h2>
+        <p id="prompt">Click "Start Quiz" to begin.</p>
+        <button id="startButton" onclick="startQuiz()">Start Quiz</button>
+      </div>
+      <div id="map"></div>
+    </div>
+
+    <!--audio elements-->
+    <audio id="vineSound" src="audio/vine.mp3"></audio>
+    <audio id="badSound" src="audio/bad.mp3"></audio>
+    <audio id="goodSound" src="audio/good.mp3"></audio>
+    
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNOYCkbGO9EqYiHzqQoF6Zx2MC_5AGQaU&libraries=geometry&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

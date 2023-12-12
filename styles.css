@@ -1,0 +1,46 @@
+
+div, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #e8ddbd;
+}
+
+body {
+    padding: 0;
+    background-color: #e8ddbd;
+    font-family: Georgia, Times, serif;
+    font-size: 100%;
+}
+
+/* CSS style to elements, class, id's */
+#container {
+    background-color: #e8ddbd;
+    width: 1100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+/* The text display section */
+.results {
+    text-align: center;
+    padding: 0.5em;
+    height: 550px;
+    width: 400px;
+    float: left;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+    height: 600px;
+    width: 600px;
+    float: right;
+}
